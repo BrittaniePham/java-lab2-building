@@ -21,7 +21,7 @@ public class Building extends JPanel {
 		for(int i = 0; i < 4; i++) {
 			for(int j = 0; j < 3; j++) {
 				g.setColor(new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-				g.drawRect(x , y, 30, 30);
+				g.fillRect(x , y, 30, 30);
 				x += 60;
 			}
 			x = 125;
